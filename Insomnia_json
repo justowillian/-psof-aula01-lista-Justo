@@ -1,0 +1,96 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1741693872388
+  modified: 1741693872388
+  description: ""
+collection:
+  - name: app88taxi
+    meta:
+      id: fld_85f16f39ec004bc3bdb510c9ebb17e9b
+      created: 1746622214528
+      modified: 1746622214528
+      sortKey: -1746622214528
+      description: ""
+    children:
+      - name: Passageiros
+        meta:
+          id: fld_27222acf74a04337837c2f9ea1bc1d5d
+          created: 1746622366148
+          modified: 1746622407199
+          sortKey: -1746622366148
+          description: ""
+        children:
+          - name: Motorista
+            meta:
+              id: fld_63f42b1da01641feb8c724e40cd8f671
+              created: 1746623560503
+              modified: 1746623564584
+              sortKey: -1746622376256
+              description: ""
+            children:
+              - name: Viagem
+                meta:
+                  id: fld_bcd587708a6c46358c5f9ca33416ca2a
+                  created: 1746624470763
+                  modified: 1746624543220
+                  sortKey: -1746623569149
+                  description: ""
+  - name: Login
+    meta:
+      id: fld_515ecd1ee8554276bc8d07a8a8ad0c27
+      created: 1750849588304
+      modified: 1750849591165
+      sortKey: -1750849588304
+      description: ""
+  - name: AULA01-PSOF2
+    meta:
+      id: fld_67ce4c94cd11427d982f21e6f6ab6903
+      created: 1750858109440
+      modified: 1750858109440
+      sortKey: -1750858109440
+      description: ""
+    children:
+      - url: http://localhost:4000/inss
+        name: .
+        meta:
+          id: req_f62ea66c606e4ace8a3ec5a2c3d0a333
+          created: 1750858115098
+          modified: 1750860170993
+          isPrivate: false
+          description: ""
+          sortKey: -1750858115098
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"preco": 1500
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.2.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1741693879031
+    modified: 1741693879031
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1741693878949
+    modified: 1741693878949
+    isPrivate: false
